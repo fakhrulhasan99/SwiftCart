@@ -1,0 +1,13 @@
+
+* {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+#banner {
+  background-image: url('/assets/banner-image.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
