@@ -40,17 +40,11 @@
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                     <i class="fa-solid fa-bars"></i>
                 </div>
-                <ul tabindex="-1"
-                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                    <li><a>Item 1</a></li>
-                    <li>
-                        <a>Parent</a>
-                        <ul class="p-2">
-                            <li><a>Submenu 1</a></li>
-                            <li><a>Submenu 2</a></li>
-                        </ul>
-                    </li>
-                    <li><a>Item 3</a></li>
+                <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                    <li><a>Home</a></li>
+                    <li><a>Product</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -69,6 +63,36 @@
             </div>
         </div>
     </header>
+    <main>
+        <!-- Features -->
+        <section class="text-center w-10/12 mx-auto py-10">
+            <h2 class="text-4xl font-bold">Why Choose Us</h2>
+            <p class="text-xl py-4 text-slate-500">We provide the best shopping experience with top-notch services</p>
+            <div class="py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-slate-100 border rounded-2xl border-slate-300 p-4 text-left">
+                    <i class="fa-regular fa-truck text-4xl relative bottom-8"></i>
+                    <h3 class="text-xl font-medium pb-2">Fast Delivery</h3>
+                    <p>Get your orders delivered to your doorstep quickly and efficiently.</p>
+                </div>
+                <div class="bg-slate-100 border rounded-2xl border-slate-300 p-4 text-left">
+                    <i class="fa-regular fa-headphones text-4xl relative bottom-8"></i>
+                    <h3 class="text-xl font-medium pb-2">24/7 Support</h3>
+                    <p>Out support team is available around the clock to assist you.</p>
+                </div>
+                <div class="bg-slate-100 border rounded-2xl border-slate-300 p-4 text-left">
+                    <i class="fa-solid fa-shield-heart text-4xl relative bottom-8"></i>
+                    <h3 class="text-xl font-medium pb-2">Secure Payment</h3>
+                    <p>Experience safe and secure transactions with our encrypted payment systems.</p>
+                </div>
+                <div class="bg-slate-100 border rounded-2xl border-slate-300 p-4 text-left">
+                    <i class="fa-solid fa-rotate-left text-4xl relative bottom-8"></i>
+                    <h3 class="text-xl font-medium pb-2">Easy Returns</h3>
+                    <p>Nt satisfied? Return your products easily within 3 days</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
 </body>
 
 </html>
