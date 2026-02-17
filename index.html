@@ -91,13 +91,28 @@
                 </div>
             </div>
         </section>
+        <!-- Top Trending Products -->
+        <section class="w-10/12 mx-auto py-10">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-3xl font-bold">Top Trending Products</h2>
+                <button id="viewAllBtn" class="btn btn-outline btn-primary">
+                    View All Products
+                </button>
+            </div>
+
+            <div id="productContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Products will load here -->
+            </div>
+        </section>
+
     </main>
     <!-- Footer -->
     <footer>
         <div class="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
             <div>
                 <h2 class="text-4xl font-bold text-violet-800">SwiftCart</h2>
-                <p>Your one-stop shop for all your fashion and lifestyle needs. Quality products, fast delivery and excellent support.</p>
+                <p>Your one-stop shop for all your fashion and lifestyle needs. Quality products, fast delivery and
+                    excellent support.</p>
             </div>
             <nav>
                 <h6 class="footer-title">QUICK LINKS</h6>
@@ -163,6 +178,8 @@
             </nav>
         </div>
     </footer>
+
+    <script type="module" src="./js/main.js"></script>
 </body>
 
 </html>
