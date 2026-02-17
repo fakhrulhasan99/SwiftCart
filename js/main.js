@@ -66,10 +66,13 @@ const renderProducts = (products) => {
         <p class="py-4">${description}</p>
         <p class="text-violet-600 text-4xl font-bold mb-3">$${price}</p>
           <div class="modal-action">
-            <button class="btn w-5/12" onclick="document.getElementById('${modalId}').close()">Close</button>
-            <button class="btn btn-primary w-5/12">
-            <i class="fa-solid fa-cart-arrow-down"></i> Add
-        </button>
+            <button class="btn" onclick="document.getElementById('${modalId}').close()">Close</button>
+            <button class="btn btn-primary">
+                <i class="fa-solid fa-cart-arrow-down"></i> Add
+            </button>
+            <button class="btn btn-success font-bold">
+                <i class="fa-solid fa-bag-shopping"></i> Buy Now
+            </button>
           </div>
         </div>
       </dialog>
@@ -85,6 +88,5 @@ const renderProducts = (products) => {
         });
     });
 };
-
 
 fetchProducts();
