@@ -14,96 +14,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/style/style.css">
-    <title>SwiftCart</title>
+    <title>SwiftCart │ Products</title>
 </head>
 
 <body>
-    <header>
-        <!-- Navbar  -->
-        <div class="navbar bg-base-100 shadow-sm lg:w-10/12 mx-auto">
-            <div class="navbar-start">
+    <!-- Navbar  -->
+    <div class="navbar bg-base-100 shadow-sm lg:w-10/12 mx-auto">
+        <div class="navbar-start">
 
-                <a class="btn btn-ghost text-xl text-violet-700 font-bold">SwiftCart</a>
-            </div>
-            <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li><a href="index.html" class="nav-link">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Contact</a></li>
-                </ul>
-            </div>
-            <div class="navbar-end">
-                <a><i class="fa-solid fa-cart-arrow-down"></i></a>
-            </div>
-            <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                    <li><a href="index.html" class="nav-link">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Contact</a></li>
-                </ul>
-            </div>
+            <a class="btn btn-ghost text-xl text-violet-700 font-bold">SwiftCart</a>
         </div>
-        <!-- Banner -->
-        <div id="banner" class="hero">
-            <div class="hero-overlay"></div>
-            <div class="hero-content text-neutral-content ">
-                <div class="max-w-md">
-                    <h1 class="mb-5 text-5xl font-bold">Best Collection For You</h1>
-                    <p class="mb-5">
-                        Discover the latest trends in fashion, electronics and more. Shop with confidence and style at
-                        SwiftCart.
-                    </p>
-                    <button class="btn btn-primary">Shop Now</button>
-                </div>
-            </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a>About</a></li>
+                <li><a>Contact</a></li>
+            </ul>
         </div>
-    </header>
-    <main>
-        <!-- Features -->
-        <section class="text-center w-10/12 mx-auto py-10">
-            <h2 class="text-4xl font-bold">Why Choose Us</h2>
-            <p class="text-xl py-4 text-slate-500">We provide the best shopping experience with top-notch services</p>
-            <div class="py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <div class="bg-slate-100 border rounded-2xl border-slate-300 p-4 text-left">
-                    <i class="fa-regular fa-truck text-4xl relative bottom-8"></i>
-                    <h3 class="text-xl font-medium pb-2">Fast Delivery</h3>
-                    <p>Get your orders delivered to your doorstep quickly and efficiently.</p>
-                </div>
-                <div class="bg-slate-100 border rounded-2xl border-slate-300 p-4 text-left">
-                    <i class="fa-regular fa-headphones text-4xl relative bottom-8"></i>
-                    <h3 class="text-xl font-medium pb-2">24/7 Support</h3>
-                    <p>Out support team is available around the clock to assist you.</p>
-                </div>
-                <div class="bg-slate-100 border rounded-2xl border-slate-300 p-4 text-left">
-                    <i class="fa-solid fa-shield-heart text-4xl relative bottom-8"></i>
-                    <h3 class="text-xl font-medium pb-2">Secure Payment</h3>
-                    <p>Experience safe and secure transactions with our encrypted payment systems.</p>
-                </div>
-                <div class="bg-slate-100 border rounded-2xl border-slate-300 p-4 text-left">
-                    <i class="fa-solid fa-rotate-left text-4xl relative bottom-8"></i>
-                    <h3 class="text-xl font-medium pb-2">Easy Returns</h3>
-                    <p>Nt satisfied? Return your products easily within 3 days</p>
-                </div>
+        <div class="navbar-end">
+            <a><i class="fa-solid fa-cart-arrow-down"></i></a>
+        </div>
+        <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <i class="fa-solid fa-bars"></i>
             </div>
-        </section>
-        <!-- Top Trending Products -->
-        <section class="w-10/12 mx-auto py-10">
-            <div class="flex justify-between items-center mb-6">
-                <h2 class="text-3xl font-bold">Top Trending Products</h2>
-                <a href="products.html" class="btn btn-outline btn-primary">
-                    All Products
-                </a>
-            </div>
-
-            <div id="productContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            </div>
-        </section>
-
+            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a>About</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <main class="w-10/12 mx-auto py-10 text-center">
+        <h2 class="text-4xl font-bold mb-6">Our Products</h2>
+        <div id="allProductsContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        </div>
     </main>
     <!-- Footer -->
     <footer>
@@ -177,8 +124,7 @@
             </nav>
         </div>
     </footer>
-
-    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/products.js"></script>
 </body>
 
 </html>

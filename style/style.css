@@ -11,3 +11,7 @@
   background-repeat: no-repeat;
   min-height: 50vh;
 }
+
+.nav-link {
+  background-color: gainsboro;
+}
